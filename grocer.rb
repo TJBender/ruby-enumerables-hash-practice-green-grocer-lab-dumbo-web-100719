@@ -8,7 +8,7 @@ def consolidate_cart(cart)
       if final_hash.has_key?(element_name)
         element_stats[:count] += 1
       else 
-        final_hash[element_name]
+        final_hash[element_name] ===
         binding.pry
       end
   end
