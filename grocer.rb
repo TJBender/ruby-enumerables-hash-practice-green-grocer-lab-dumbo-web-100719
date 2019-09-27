@@ -10,6 +10,7 @@ def consolidate_cart(cart)
       else 
         final_hash[element_name] = { 
           count: 1
+          
         }
       end
   end
