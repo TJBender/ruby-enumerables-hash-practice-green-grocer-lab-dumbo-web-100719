@@ -45,6 +45,6 @@ def apply_clearance(cart)
   cart
 end
 
-def checkout(cart) 
+def checkout(array, cart) 
   
 end
