@@ -49,5 +49,5 @@ def checkout(array, coupons)
   hash_cart = consolidate_cart(array)
   applied_coupons = apply_coupons(hash_cart, coupons)
   applied_discount = apply_clearance(applied_coupons)
-  total = applied_discount.reduce(0) { |acc, (key, val)| acc += 1}
+  total = applied_discount.reduce(0) { |acc, (key, val)| acc += val}
 end
