@@ -10,7 +10,7 @@ def consolidate_cart(cart)
       else 
         final_hash[element_name] = { 
           count: 1,
-          price: 
+          price: element_stats[]
           
         }
       end
