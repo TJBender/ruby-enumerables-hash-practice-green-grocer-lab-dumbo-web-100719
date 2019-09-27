@@ -27,7 +27,7 @@ def apply_cupons(cart, coupons)
           count: coupon[:num]
         }
         cart[item][:count] -= coupon[:num]
-      elsif
+      elsif coupon[:item][:count] >= coupon[:num] && !cart["#{item} W/COUPON"]
         
     end
   end
