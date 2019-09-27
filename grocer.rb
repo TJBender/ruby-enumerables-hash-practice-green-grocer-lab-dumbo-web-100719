@@ -12,7 +12,6 @@ def consolidate_cart(cart)
           count: 1,
           price: element_stats[:price],
           clearance: element_stats[:clearance]
-          
         }
       end
   end
