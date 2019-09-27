@@ -20,5 +20,6 @@ end
 def apply_cupons(cart, coupons)
   coupons.each do |coupon|
   item = coupon[:item]
+    if cart[item]
   end
 end
