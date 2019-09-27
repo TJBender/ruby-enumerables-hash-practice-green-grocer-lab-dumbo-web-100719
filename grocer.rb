@@ -18,5 +18,5 @@ end
 
 
 def apply_cupons(cart, coupons)
-  coupons.each
+  coupons.each do |coupon|
 end
